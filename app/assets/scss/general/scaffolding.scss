@@ -1,0 +1,52 @@
+/* scaffolding */
+
+@use '~/assets/scss/general/variables' as *;
+@use '~/assets/scss/abstracts/mixins' as *;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* stylelint-disable */
+
+html,
+body,
+#__nuxt,
+#__nuxt > div {
+	height: 100%;
+}
+
+/* stylelint-enable */
+
+body {
+	color: var(--color-1);
+	background-color: var(--color-2);
+
+	@include font-base;
+	@include typo-p1;
+}
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	border: 0;
+	margin: -1px;
+	clip: rect(0 0 0 0);
+	clip-path: inset(100%);
+	white-space: nowrap;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: $xxl;
+	padding: 0 16px;
+
+	@media screen and (min-width: $md) {
+		padding: 0 36px;
+	}
+}

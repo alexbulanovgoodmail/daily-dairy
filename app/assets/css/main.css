@@ -1,0 +1,22 @@
+/* main css */
+
+@import 'normalize.css';
+
+:root {
+	--color-1: #fcfcfa;
+	--color-2: #032d68;
+	--color-error: #f00;
+	--color-success: #0f0;
+}
+
+.primary {
+	--color-1: #fcfcfa;
+	--color-1-60: #fcfcfa60;
+	--color-2: #032d68;
+}
+
+.secondary {
+	--color-1: #032d68;
+	--color-1-60: #032d6860;
+	--color-2: #fcfcfa;
+}

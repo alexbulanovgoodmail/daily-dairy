@@ -1,0 +1,44 @@
+/* typography */
+
+@use '~/assets/scss/general/variables' as *;
+@use '~/assets/scss/abstracts/mixins' as *;
+
+.typo-headline {
+	@include typo-headline;
+}
+
+.typo-h1 {
+	@include typo-h1;
+}
+
+.typo-h2 {
+	@include typo-h2;
+}
+
+.typo-h3 {
+	@include typo-h3;
+}
+
+.typo-h4 {
+	@include typo-h4;
+}
+
+.typo-c1 {
+	@include typo-c1;
+}
+
+.typo-c2 {
+	@include typo-c2;
+}
+
+.typo-p1 {
+	@include typo-p1;
+}
+
+.typo-p2 {
+	@include typo-p2;
+}
+
+.typo-link {
+	@include typo-link;
+}
