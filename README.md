@@ -1,3 +1,7 @@
+![Превью сайта](https://github.com/alexbulanovgoodmail/daily-dairy/blob/main/Preview.jpg?raw=true)
+
+[Посмотреть](https://alex-bulanov-daily-dairy.netlify.app)
+
 # Daily Dairy
 
 **Daily Dairy** — это веб-приложение, разработанное с использованием фреймворка Nuxt.js, которое предоставляет удобный интерфейс для просмотра и управления каталогом продуктов, а также включает дополнительные страницы, такие как "О нас", "Контакты" и "Продукты".
