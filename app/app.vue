@@ -1,5 +1,15 @@
 <script setup lang="ts">
+import { toHead } from 'vue-datocms'
 import { ModalsContainer } from 'vue-final-modal'
+import { storeLayout } from '~/stores/storeLayout'
+
+const { site } = storeLayout()
+
+useHead(() => {
+	return {
+		...toHead(site?.faviconMetaTags || [])
+	}
+})
 </script>
 
 <template>
